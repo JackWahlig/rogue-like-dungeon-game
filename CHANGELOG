@@ -1,0 +1,8 @@
+Assignment 1.10 Changelog
+
+11/26/17 - Started assignment 1.10. Added wealth field to all characters and greed field to NPCs. Added Gold Piles to object description document. Implemented picking up gold and adding the value to wealth
+11/27/17 - Implemented bribe functionality. Debugged this thoroughly for most edge cases. Added dialogue in queue so that user knows what is going on.
+11/28/17 - Implemented betrayal system where bribed monsters will attack the PC if attacked by the PC. Added wizrd tile and dialogue screen for wizard. Added modifiers to increase or decrease PC damage and speed after talking to the wizard. Modified look_around function so that items can be examined as well as monsters
+11/29/17 - Implemented gold pile drops when characters are killed. Changed bribed monster movement to follow the PC using their normal movement functions. Added function to push bribed NPCs out of the way so that PC doesn't have to attack them
+11/30/17 - Added speed increase when PC talks to wizard using a speed_modifier variable. Ran with valgrind and did minor debugging.
+12/1/17 - Finished debugging. Assignment considered complete.
