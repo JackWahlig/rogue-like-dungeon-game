@@ -1,4 +1,4 @@
-Rogue-like Dungeon Game
+Rogue-like Dungeon Game created for COM S 327
 
 The game is randomly generated every time but floor layouts can be saved and loaded. Character is controlled with the keyboard.
 All game assets including the player character, monsters, items, floors, and walls are displayed with ASCII characters.
